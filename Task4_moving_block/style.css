@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+/* body{
+    overflow:hidden;
+} */
+
+#cont{
+    border: 1px solid green;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    display: flex;
+}
+
+button{
+    width: 35px;
+    height: 20px;
+}
