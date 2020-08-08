@@ -16,7 +16,7 @@ function CreateDescr(bank_name){
     }
 
     this.showDescr = function(){
-        console.log(this.container.children.length);
+        // console.log(this.container.children.length);
         if(this.container.children.length > 1) this.container.removeChild(this.container.lastElementChild);
         let desc_el = document.createElement('div');
         desc_el.innerText = this.descr;
@@ -25,7 +25,7 @@ function CreateDescr(bank_name){
 
     // console.dir(this);
 
-    return this;
+    // return this;
     
 }
 
