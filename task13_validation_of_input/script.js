@@ -9,7 +9,6 @@ desc_el.innerText = "Выберите тип ввода";
 container.appendChild(desc_el);
 
 choosed.onchange = function () {
-    // console.log('input type choosed');
     desc_el.innerText = "";
     // console.dir(choosed);
     console.log(container);
