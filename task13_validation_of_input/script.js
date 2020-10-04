@@ -10,7 +10,6 @@ container.appendChild(desc_el);
 
 choosed.onchange = function () {
     desc_el.innerText = "";
-    // console.dir(choosed);
     console.log(container);
     console.log(container.children.length);
 
