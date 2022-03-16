@@ -1,6 +1,6 @@
 'use strict'
 
-var names = ['Kiev', 'Lviv', 'Odesa', 'Dnepr', 'Harkiv'];
+var names = ['Kiev', 'Lviv', 'Odesa', 'Dnepr', 'Harkiv', 'Chernivtsi'];
 
 function render(data, containerId) {
     
